@@ -38,24 +38,26 @@ Frontend буде доступний на http://localhost:3000
 
 *** Структура проекту
 TestTemplates/
-│
-├── Api/                  # Backend
-│   ├── Controllers/
-│   ├── Data/
-│   ├── Entities/
-│   ├── Services/
-│   ├── Api.csproj
-│   └── Dockerfile
-│
-├── template-client/      # Frontend
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── Dockerfile
-│
-├── docker-compose.yml
-└── .gitignore
+docker-compose.yml
+Dockerfile
+.gitignore
+
+*** Backend
+Api/                 
+Controllers/
+Data/
+Entities/
+Services/
+Api.csproj
+Dockerfile
+
+*** Frontend
+template-client/      
+src/
+public/
+package.json
+tsconfig.json
+
 
 *** Примітки
 Для генерації PDF використовується QuestPDF
